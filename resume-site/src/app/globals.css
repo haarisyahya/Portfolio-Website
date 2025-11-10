@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/* Optional: smooth scroll for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #4f46e5; /* indigo-600 */
+  --color-secondary: #475569; /* slate-600 */
+  --color-accent: #ec4899; /* pink-500 */
+  --font-sans: 'Quicksand', sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Custom focus ring for accessibility */
+:focus-visible {
+  @apply outline-none ring-2 ring-primary;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Animated background animations */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Mesh gradient animation */
+@keyframes mesh-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.mesh-gradient-animated {
+  background: 
+    radial-gradient(at 0% 0%, rgb(99, 102, 241) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgb(168, 85, 247) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgb(236, 72, 153) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgb(59, 130, 246) 0px, transparent 50%);
+  background-size: 200% 200%;
+  animation: mesh-gradient 15s ease infinite;
+}
