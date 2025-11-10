@@ -9,7 +9,7 @@ export default function About() {
           Full-Stack Engineer with a passion for learning and solving complex problems
         </h2>
         <p className="mt-4 text-base md:text-lg text-slate-300">
-        I’m a full‑stack engineer who lives for learning new tools, cracking tough problems, and constantly iterating on my craft. When I’m not building data pipelines 
+        I live for learning new tools, cracking tough problems, and constantly iterating on my craft. When I’m not building data pipelines 
         or UI components, you’ll find me on the soccer field (or cheering from the couch), tinkering on a game prototype, lifting weights, cooking up new recipes, or hanging out with my cats.  
         I’m always looking for projects where technology meets innovation. </p>
       </div>
@@ -20,7 +20,7 @@ export default function About() {
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
             <h3 className="text-xl font-semibold text-white">What excites me</h3>
             <p className="mt-3 text-slate-300 leading-relaxed">
-            As an Industry X Developer @ Accenture, I design and deliver automation scripts (Java & PowerShell), end‑to‑end data pipelines, and enterprise‑grade integration solutions (Docker, Kafka, Azure DevOps, JUnit/Mockito) that support engineering and health‑care teams Ontario wide. Previously, I helped launch product features at LiteSpace, led testing initiatives, and collaborated closely with designers to ship polished, reliable experiences.
+            As an Industry X Developer @ Accenture, I design and deliver automation scripts (Java & PowerShell), end‑to‑end data pipelines, and enterprise‑grade integration solutions (Docker, Kafka, Azure DevOps, JUnit/Mockito) that support engineering and health‑care teams Ontario wide. Previously, I helped launch product features at LiteSpace, led testing initiatives, and collaborated closely with designers to ship polished, reliable experiences.
             </p>
             <p className="mt-3 text-slate-300 leading-relaxed">
               Outside of client work, I am interested in learning more about cybersecurity and building mobile applications that benefit society.
