@@ -2,7 +2,7 @@
 
 First iteration of my personal site, built with the Next.js App Router, Tailwind CSS v4, and a custom galaxy backdrop. Hosted on Vercel.
 
-**Demo:** https://haarisy.com  
+**Demo:** https://haarisy.dev
 
 
 
@@ -92,8 +92,8 @@ resume-site/
 ## ✅ TODO / Ideas
 
 - Add more project entries using the project card format.
-- Optional theme toggle if reintroduced accessibly.
-- Performance tuning for the galaxy canvas if needed.
+- Optional theme toggle to introduce accessibility.
+- Performance tuning for the Galaxy Canvas, if needed.
 
 ---
 
