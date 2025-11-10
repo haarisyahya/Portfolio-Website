@@ -25,7 +25,7 @@ const projects: Project[] = [
   {
     title: 'Scavenger Hunt Proposal Website',
     description:
-      'Developed a scavenger hunt website for my friend\'s partner to help propose to her. I developed this using React, CSS and JavaScript.',
+      'Developed a scavenger hunt website for my partner to propose to her. I developed this using React, CSS and JavaScript.',
     tech: ['JavaScript', 'React', 'HTML', 'CSS'],
     image: '/proposal-scav-hunt.png',
     url: 'https://ourjourneyof.love',
