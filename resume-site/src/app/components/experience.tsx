@@ -26,7 +26,7 @@ const experience: ExperienceItem[] = [
       "Developed and implemented automation scripts using Java and PowerShell to streamline data processing workflows and that reduced manual effort by 45%",
       "Developed and thoroughly tested a Windows service integration application that streamlined theclients safety process and ensured data reliability using C#, SQL Server and Postman",
       "Working with a healthcare client on data migration, developing and testing Java features withJUnit/Mockito, Git, Azure DevOps (CI/CD), and gaining exposure to Apache Camel, Kafka, Docker, and Kubernetes",
-      "Led and mentored extracurricular initiatives by developing a Python-based algorithm to optimizementee-mentor matching for a mentorship program that was deployed globally across Accenture"
+      "Led and mentored extracurricular initiatives by developing a Python-based algorithm to optimize mentee-mentor matching for a mentorship program that was deployed globally across Accenture"
     ],
   },
   {
