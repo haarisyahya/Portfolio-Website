@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { FiMail, FiGithub, FiLinkedin, FiBriefcase} from 'react-icons/fi';
+import {FiGithub, FiLinkedin, FiBriefcase} from 'react-icons/fi';
 import Link from 'next/link';
 
 export default function Hero() {

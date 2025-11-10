@@ -19,7 +19,7 @@ const projects: Project[] = [
       'A personal portfolio built with Next.js 14 App Router, TypeScript, and Tailwind. Fully static, deployed on Vercel.',
     tech: ['Next.js', 'TypeScript', 'TailwindCSS'],
     image: '/portfolio-website.png',
-    url: 'https://haarisy.com',
+    url: 'https://haarisy.dev',
     repo: 'https://github.com/haarisyahya/Portfolio-Website',
   },
   {

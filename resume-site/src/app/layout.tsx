@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Your Name – Résumé',
     description: 'Software Engineer, cybersecurity enthusiast, lifelong learner.',
-    url: 'https://haarisy.com',
+    url: 'https://haarisy.dev',
     type: 'website',
     images: [{ url: '/og-image.png' }],
   },
