@@ -32,7 +32,7 @@ export default function About() {
             <ul className="mt-4 space-y-3 text-slate-300">
               <li>• Playing soccer and lifting weights to maintain my mobility and strength.</li>
               <li>• Cooking food for the people I care about and trying new cuisines.</li>
-              <li>• Writing and reflecting about life, speaking up for what I believe in and playing video games.</li>
+              <li>• Writing and reflecting about life, speaking up for what I believe in, and playing video games.</li>
             </ul>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function About() {
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
             <h4 className="text-sm font-semibold uppercase tracking-wider text-slate-300">What I am looking for</h4>
             <p className="mt-3 text-slate-300">
-             Open to product‑engineering, creative‑tech, or cybersecurity roles where I can craft innovative solutions that benefit society and ensure they remain secure.
+             Open to product‑engineering, creative‑tech, or cybersecurity roles where I can craft innovative solutions that drive security, efficiency, and impact.
             </p>
             <p className="mt-3 text-slate-300">
               If you are building something ambitious—or want to collaborate on a design-driven experiment—let&apos;s connect.
