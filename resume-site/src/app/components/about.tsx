@@ -20,7 +20,7 @@ export default function About() {
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
             <h3 className="text-xl font-semibold text-white">What excites me</h3>
             <p className="mt-3 text-slate-300 leading-relaxed">
-            As an Industry X Developer @ Accenture, I design and deliver automation scripts (Java & PowerShell), end‑to‑end data pipelines, and enterprise‑grade integration solutions (Docker, Kafka, Azure DevOps, JUnit/Mockito) that support engineering and health‑care teams Ontario wide. Previously, I helped launch product features at LiteSpace, led testing initiatives, and collaborated closely with designers to ship polished, reliable experiences.
+            As an Industry X Developer @ Accenture, I design and deliver automation scripts, novel features, end‑to‑end data pipelines, and enterprise‑grade integration solutions (Docker, Kafka, Azure DevOps, JUnit/Mockito) that support engineering and health‑care teams Ontario wide. Previously, I helped launch product features at LiteSpace, led testing initiatives, and collaborated closely with designers to ship polished, reliable experiences.
             </p>
             <p className="mt-3 text-slate-300 leading-relaxed">
               Outside of client work, I am interested in learning more about cybersecurity and building mobile applications that benefit society.
