@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   description:
     'Personal résumé site built with Next.js, TypeScript and Tailwind CSS.',
   openGraph: {
-    title: 'Your Name – Résumé',
+    title: 'Haaris Yahya– Portfolio',
     description: 'Software Engineer, cybersecurity enthusiast, lifelong learner.',
     url: 'https://haarisy.dev',
     type: 'website',
-    images: [{ url: '/og-image.png' }],
+    images: [{ url: '/avatar.JPG' }],
   },
 };
 
