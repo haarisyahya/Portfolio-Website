@@ -1,0 +1,45 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hyGradientV3" x1="20" y1="20" x2="140" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6d28d9"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    
+    <radialGradient id="innerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.05"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Main circle -->
+  <circle cx="80" cy="80" r="72" fill="url(#hyGradientV3)"/>
+  <circle cx="80" cy="80" r="72" fill="url(#innerGlow)"/>
+
+  <!-- Y letter (positioned inside the H) -->
+  <g stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left diagonal branch of Y -->
+    <line x1="80" y1="75" x2="60" y2="45"/> <!-- Adjusted left fork -->
+    <!-- Right diagonal branch of Y (same length as left fork) -->
+    <line x1="80" y1="75" x2="100" y2="45"/> <!-- Adjusted right fork to match length -->
+    <!-- Vertical stem of Y -->
+    <line x1="80" y1="85" x2="80" y2="115"/>
+  </g>
+
+  <!-- H letter -->
+  <g stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left vertical line of H -->
+    <line x1="48" y1="45" x2="48" y2="115"/>
+    <!-- Horizontal crossbar of H -->
+    <line x1="48" y1="80" x2="112" y2="80"/>
+    <!-- Right vertical line of H -->
+    <line x1="112" y1="45" x2="112" y2="115"/>
+  </g>
+
+  <!-- Subtle highlights -->
+  <g stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.4">
+    <line x1="50" y1="47" x2="50" y2="55"/>
+    <line x1="94" y1="47" x2="94" y2="55"/>
+    <line x1="113" y1="47" x2="113" y2="53"/>
+  </g>
+</svg>
