@@ -44,7 +44,7 @@ export default function About() {
             <dl className="mt-4 space-y-4">
               <div>
                 <dt className="text-xs uppercase tracking-wider text-slate-400">Years of Experience</dt>
-                <dd className="text-2xl font-semibold text-white">2</dd>
+                <dd className="text-2xl font-semibold text-white">2+</dd>
               </div>
               <div>
                 <dt className="text-xs uppercase tracking-wider text-slate-400">Stack</dt>
@@ -52,7 +52,7 @@ export default function About() {
               </div>
               <div>
                 <dt className="text-xs uppercase tracking-wider text-slate-400">Currently Learning</dt>
-                <dd className="text-base font-medium text-slate-200">Agentic AI, Machine Learning, Cybersecurity, Mobile Application Development</dd>
+                <dd className="text-base font-medium text-slate-200">Agentic AI, Machine Learning, Cloud Computing, Mobile Application Development</dd>
               </div>
             </dl>
           </div>
@@ -60,10 +60,10 @@ export default function About() {
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
             <h4 className="text-sm font-semibold uppercase tracking-wider text-slate-300">What I am looking for</h4>
             <p className="mt-3 text-slate-300">
-             Open to product‑engineering, creative‑tech, or cybersecurity roles where I can craft innovative solutions that drive security, efficiency, and impact.
+            Open to cloud-architecture, cloud-security, or infrastructure-engineering roles where I can deliver scalable, secure solutions that improve reliability, automation, and impact.
             </p>
             <p className="mt-3 text-slate-300">
-              If you are building something ambitious—or want to collaborate on a design-driven experiment—let&apos;s connect.
+            If you’re building trusted cloud systems—or want to collaborate on a security-driven experiment—let’s connect.
             </p>
           </div>
         </div>

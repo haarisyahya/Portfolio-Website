@@ -36,7 +36,7 @@ export default function Hero() {
         Hi, I'm Haaris!
       </h1>
       <p className="mt-2 text-lg md:text-xl text-slate-300">
-        Full‑Stack Engineer • Cybersecurity Enthusiast • Lifelong Learner
+        Full‑Stack Engineer • Cloud Computing Enthusiast • Lifelong Learner
       </p>
 
       {/* Social / Contact buttons */}
