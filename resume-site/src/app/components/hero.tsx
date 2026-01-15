@@ -51,7 +51,7 @@ export default function Hero() {
           GitHub
         </Link>
         <Link
-          href="https://www.linkedin.com/in/haaris-yahya-398ba9195/"
+          href="https://www.linkedin.com/in/haaris-y-398ba9195/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 rounded-md bg-blue-600/80 backdrop-blur-sm px-4 py-2 text-white transition hover:bg-blue-600 hover:scale-105"
