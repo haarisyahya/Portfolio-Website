@@ -19,7 +19,7 @@ export default function Contact() {
           <span className="text-white">GitHub</span>
         </Link>
         <Link
-          href="https://www.linkedin.com/in/haaris-yahya-398ba9195/"
+          href="https://www.linkedin.com/in/haaris-y-398ba9195/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-primary hover:text-primary/80 transition-colors"
