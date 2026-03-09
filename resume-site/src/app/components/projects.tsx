@@ -23,7 +23,7 @@ const projects: Project[] = [
     repo: 'https://github.com/haarisyahya/Portfolio-Website',
   },
   {
-    title: 'Scavenger Hunt Proposal Website',
+    title: 'Location-Based Puzzle Web Application',
     description:
       'Developed a scavenger hunt website for my partner to propose to her. I developed this using React, CSS and JavaScript.',
     tech: ['JavaScript', 'React', 'HTML', 'CSS'],
@@ -44,7 +44,7 @@ const projects: Project[] = [
   {
     title: 'Chess',
     description:
-      'A chess game made in Java using alpha-beta pruning and Minimax.',
+      'Implemented a Chess engine in Java using Minimax and Alpha-Beta pruning algorithms with multiple difficulty levels and GUI built in Java Swing.',
     tech: ['Java', 'Alpha-Beta Pruning', 'Minimax Algorithm', 'AI'],
     image: '/chess.png',
     repo: 'https://github.com/haarisyahya/Chess',

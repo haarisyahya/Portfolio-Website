@@ -16,17 +16,17 @@ type ExperienceItem = {
 const experience: ExperienceItem[] = [
   {
     company: "Accenture",
-    role: "Industry X Developer",
+    role: "Software Developer (Industry X)",
     start: "2024-05-14",
     location: "Mississauga, ON",
     logo: "/accenture_logo.jpg",
     logoAlt: "Accenture logo",
     description: [
-      "Led data migration initiatives utilizing 3DEXPERIENCE, SolidWorks, and Citrix, ensuring seamless transfer and integrity of complex engineering data",
-      "Developed and implemented automation scripts using Java and PowerShell to streamline data processing workflows and that reduced manual effort by 45%",
-      "Developed and thoroughly tested a Windows service integration application that streamlined theclients safety process and ensured data reliability using C#, SQL Server and Postman",
-      "Working with a healthcare client on data migration, developing and testing Java features withJUnit/Mockito, Git, Azure DevOps (CI/CD), and gaining exposure to Apache Camel, Kafka, Docker, and Kubernetes",
-      "Led and mentored extracurricular initiatives by developing a Python-based algorithm to optimize mentee-mentor matching for a mentorship program that was deployed globally across Accenture"
+      "Led engineering data migration initiatives using 3DEXPERIENCE, SolidWorks, and Citrix, while developing Java and PowerShell automation pipelines that reduced manual data processing by 45% and ensured seamless transfer and integrity of complex engineering data",
+      "Developed and thoroughly tested a Windows service integration application that streamlined the clients safety process and ensured data reliability using C#, SQL Server and Postman",
+      "Designed and implemented a Python-based mentor–mentee matching algorithm using preference scoring, capability alignment, and exclusion rules, automating the pairing process for a global mentorship program across Accenture",
+      "Develop and deploy Java microservice features in a healthcare platform using Kubernetes, Azureinfrastructure (VMs, Key Vault, Roles), Git, and Azure DevOps CI/CD pipelines, contributing to secure and scalable production deployments",
+      "Partner with QA and cross-functional teams to test APIs with Postman, manage sprint tasks in JIRA, perform code reviews, and mentor junior developers to maintain high code quality and reliable releases"
     ],
   },
   {
@@ -38,11 +38,10 @@ const experience: ExperienceItem[] = [
     logo: "/litespace_logo.jpg",
     logoAlt: "LiteSpace logo",
     description: [
-      "Engineered and evolved the hybrid and remote scheduling feature using TypeScript, Tailwind.CSS, GraphQL, MongoDB, and Figma",
+      "Built and expanded a hybrid/remote workplace scheduling feature using TypeScript, GraphQL, and MongoDB, supporting scalable workspace management",
       "Played a pivotal role in LiteSpace’s launch by conducting rigorous testing and debugging with team and CTO",
       "Collaborated with a dynamic team to develop, test, and deploy new front-end and back-end features",
-      "Ensured scalability and performance using a microservices architecture",
-      "Utilized GitHub Actions for seamless continuous integration and delivery"
+      "Ensured scalability and performance using a microservices architecture and utilized GitHub Actions for seamless continuous integration and delivery"
     ],
   },
 ];
