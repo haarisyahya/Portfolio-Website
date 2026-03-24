@@ -14,6 +14,15 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: 'Transient Radio',
+    description:
+      'Architected a genre-agnostic music platform designed to bridge global sounds and local talent. Built with NextJS, TypeScript, Tailwind CSS, and Supabase. Leveraged Cloudflare R2 for scalable media storage and seamless global deployment.',
+    tech: ['Next.js', 'JavaScript', 'TypeScript', 'Cloudflare R2', 'TailwindCSS', 'HTML', 'Supabase'],
+    image: '/TR-Icon-Transparent.png',
+    url:'transientradio.online',
+    repo: 'https://github.com/haarisyahya/Transient-Radio',
+  },
+  {
     title: 'Portfolio Website',
     description:
       'A personal portfolio built with Next.js 14 App Router, TypeScript, and Tailwind. Fully static, deployed on Vercel.',
@@ -31,15 +40,6 @@ const projects: Project[] = [
     url: 'https://ourjourneyof.love',
     repo: 'https://github.com/haarisyahya/Scavenger-Hunt-Proposal-App',
 
-  },
-  {
-    title: 'Niagara-on-the-Lake Museum Timeline Website',
-    description:
-      'An interactive timeline web application showcasing the history of the town of Niagara-on-the-Lake',
-    tech: ['Svelte', 'JavaScript', 'CSS', 'HTML', 'Supabase'],
-    image: '/museum-timeline.png',
-    url:'https://museumtimeline.vercel.app',
-    repo: 'https://github.com/SWE-2023/COSC-4P02-Project',
   },
   {
     title: 'Chess',
