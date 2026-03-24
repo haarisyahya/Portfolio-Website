@@ -18,8 +18,8 @@ const projects: Project[] = [
     description:
       'Architected a genre-agnostic music platform designed to bridge global sounds and local talent. Built with NextJS, TypeScript, Tailwind CSS, and Supabase. Leveraged Cloudflare R2 for scalable media storage and seamless global deployment.',
     tech: ['Next.js', 'JavaScript', 'TypeScript', 'Cloudflare R2', 'TailwindCSS', 'HTML', 'Supabase'],
-    image: '/TR-Icon-Transparent.png',
-    url:'transientradio.online',
+    image: '/tr.png',
+    url:'https://transientradio.online',
     repo: 'https://github.com/haarisyahya/Transient-Radio',
   },
   {
