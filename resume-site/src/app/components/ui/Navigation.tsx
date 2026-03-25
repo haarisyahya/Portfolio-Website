@@ -56,7 +56,7 @@ export default function Navigation() {
     if (element) {
       const offset = 80;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      const offsetPosition = elementPosition + window.scrollY - offset;
 
       window.scrollTo({
         top: offsetPosition,
@@ -121,7 +121,18 @@ export default function Navigation() {
           <span className="text-sm hidden sm:inline">Projects</span>
         </button>
 
-       
+        <button
+          onClick={() => scrollToSection('contact')}
+          className={`flex items-center gap-2 px-3 py-2 rounded-full transition-all ${
+            activeSection === 'contact'
+              ? 'bg-primary text-white'
+              : 'text-white/70 hover:text-white hover:bg-white/10'
+          }`}
+          aria-label="Contact"
+        >
+          <FiMessageCircle className="text-sm" />
+          <span className="text-sm hidden sm:inline">Contact</span>
+        </button>
       </div>
     </nav>
   );

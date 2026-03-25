@@ -117,6 +117,22 @@ export default function GalaxyBackground() {
     };
     window.addEventListener('resize', resize);
 
+    // Pause animation when tab is not visible
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        if (animationFrameRef.current) {
+          cancelAnimationFrame(animationFrameRef.current);
+          animationFrameRef.current = null;
+        }
+      } else {
+        if (!animationFrameRef.current) {
+          animationFrameRef.current = requestAnimationFrame(animate);
+        }
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    let lastTimestamp = 0;
     let time = 0;
 
     // Draw galaxy/milky way gradient with flowing waves
@@ -296,7 +312,11 @@ export default function GalaxyBackground() {
     };
 
     // Animation loop
-    const animate = () => {
+    const animate = (timestamp: number) => {
+      const delta = lastTimestamp ? timestamp - lastTimestamp : 16;
+      lastTimestamp = timestamp;
+      time += delta;
+
       // Clear with dark blue-purple base
       ctx.fillStyle = '#0a0a1a';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -307,15 +327,24 @@ export default function GalaxyBackground() {
       // Draw stars
       drawStars();
 
-      time += 16; // ~60fps
-
       animationFrameRef.current = requestAnimationFrame(animate);
     };
 
-    animate();
+    // Respect prefers-reduced-motion
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) {
+      // Draw once, static
+      ctx.fillStyle = '#0a0a1a';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      drawGalaxy();
+      drawStars();
+    } else {
+      animationFrameRef.current = requestAnimationFrame(animate);
+    }
 
     return () => {
       window.removeEventListener('resize', resize);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
       if (animationFrameRef.current) {
         cancelAnimationFrame(animationFrameRef.current);
       }

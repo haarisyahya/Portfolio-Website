@@ -1,23 +1,8 @@
-'use client';
 import Image from 'next/image';
 import {FiGithub, FiLinkedin, FiBriefcase} from 'react-icons/fi';
 import Link from 'next/link';
 
 export default function Hero() {
-  const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      const offset = 80; // Offset for navigation bar
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - offset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth',
-      });
-    }
-  };
-
   return (
     <section className="min-h-screen flex flex-col items-center justify-center text-center px-4 relative z-10">
       {/* Avatar */}

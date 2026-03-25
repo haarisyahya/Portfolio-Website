@@ -1,5 +1,5 @@
 // components/contact.tsx
-import { FiMail, FiTwitter, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import Link from 'next/link';
 
 export default function Contact() {

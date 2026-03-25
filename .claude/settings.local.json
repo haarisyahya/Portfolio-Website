@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"d:/Portfolio \\(New\\)/Portfolio-Website/resume-site/src\")",
+      "Bash(ls -la \"d:/Portfolio \\(New\\)/Portfolio-Website/resume-site/src/app\")",
+      "Bash(ls -la \"d:/Portfolio \\(New\\)/Portfolio-Website/resume-site/public\")"
+    ]
+  }
+}

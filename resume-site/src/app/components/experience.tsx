@@ -93,7 +93,7 @@ export default function Experience() {
           className="text-primary hover:text-primary/80"
         > resumé </a>
          or on my <a
-          href="https://www.linkedin.com/in/haaris-yahya-398ba9195/"
+          href="https://www.linkedin.com/in/haaris-y-398ba9195/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary hover:text-primary/80"

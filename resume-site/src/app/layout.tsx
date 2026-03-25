@@ -6,10 +6,6 @@ import ThemeProvider from './components/ui/ThemeProvider';
 import { Toaster } from './components/ui/sonner';
 import GalaxyBackground from './components/ui/GalaxyBackground';
 import Navigation from './components/ui/Navigation';
-// import AnimatedGradient from './components/ui/AnimatedGradient';
-// import ParticleBackground from './components/ui/ParticleBackground';
-// import MeshGradient from './components/ui/MeshGradient';
-// import FloatingShapes from './components/ui/FloatingShapes';
 
 const quicksand = Quicksand({
   subsets: ['latin'],
@@ -22,7 +18,7 @@ export const metadata: Metadata = {
   description:
     'Personal résumé site built with Next.js, TypeScript and Tailwind CSS.',
   openGraph: {
-    title: 'Haaris Yahya– Portfolio',
+    title: 'Haaris Yahya – Portfolio',
     description: 'Software Engineer, cybersecurity enthusiast, lifelong learner.',
     url: 'https://haarisy.dev',
     type: 'website',
