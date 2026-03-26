@@ -117,21 +117,6 @@ export default function GalaxyBackground() {
     };
     window.addEventListener('resize', resize);
 
-    // Pause animation when tab is not visible
-    const handleVisibilityChange = () => {
-      if (document.hidden) {
-        if (animationFrameRef.current) {
-          cancelAnimationFrame(animationFrameRef.current);
-          animationFrameRef.current = null;
-        }
-      } else {
-        if (!animationFrameRef.current) {
-          animationFrameRef.current = requestAnimationFrame(animate);
-        }
-      }
-    };
-    document.addEventListener('visibilitychange', handleVisibilityChange);
-
     let lastTimestamp = 0;
     let time = 0;
 
@@ -329,6 +314,21 @@ export default function GalaxyBackground() {
 
       animationFrameRef.current = requestAnimationFrame(animate);
     };
+
+    // Pause animation when tab is not visible
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        if (animationFrameRef.current) {
+          cancelAnimationFrame(animationFrameRef.current);
+          animationFrameRef.current = null;
+        }
+      } else {
+        if (!animationFrameRef.current) {
+          animationFrameRef.current = requestAnimationFrame(animate);
+        }
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibilityChange);
 
     // Respect prefers-reduced-motion
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
