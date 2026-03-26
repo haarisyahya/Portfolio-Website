@@ -117,7 +117,6 @@ export default function GalaxyBackground() {
     };
     window.addEventListener('resize', resize);
 
-    let lastTimestamp = 0;
     let time = 0;
 
     // Draw galaxy/milky way gradient with flowing waves
@@ -297,10 +296,8 @@ export default function GalaxyBackground() {
     };
 
     // Animation loop
-    const animate = (timestamp: number) => {
-      const delta = lastTimestamp ? timestamp - lastTimestamp : 16;
-      lastTimestamp = timestamp;
-      time += delta;
+    const animate = () => {
+      time += 16;
 
       // Clear with dark blue-purple base
       ctx.fillStyle = '#0a0a1a';
@@ -322,27 +319,13 @@ export default function GalaxyBackground() {
           cancelAnimationFrame(animationFrameRef.current);
           animationFrameRef.current = null;
         }
-      } else {
-        if (!animationFrameRef.current) {
-          animationFrameRef.current = requestAnimationFrame(animate);
-        }
+      } else if (!animationFrameRef.current) {
+        animate();
       }
     };
     document.addEventListener('visibilitychange', handleVisibilityChange);
 
-    // Respect prefers-reduced-motion
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (prefersReducedMotion) {
-      // Draw once, static
-      ctx.fillStyle = '#0a0a1a';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      drawGalaxy();
-      drawStars();
-    } else {
-      // Call synchronously for the first frame so it draws immediately,
-      // then animate() schedules RAF for all subsequent frames.
-      animate(performance.now());
-    }
+    animate();
 
     return () => {
       window.removeEventListener('resize', resize);
