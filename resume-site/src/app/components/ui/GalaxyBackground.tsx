@@ -339,7 +339,9 @@ export default function GalaxyBackground() {
       drawGalaxy();
       drawStars();
     } else {
-      animationFrameRef.current = requestAnimationFrame(animate);
+      // Call synchronously for the first frame so it draws immediately,
+      // then animate() schedules RAF for all subsequent frames.
+      animate(performance.now());
     }
 
     return () => {
