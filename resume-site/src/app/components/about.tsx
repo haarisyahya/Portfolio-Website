@@ -20,10 +20,10 @@ export default function About() {
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
             <h3 className="text-xl font-semibold text-white">What excites me</h3>
             <p className="mt-3 text-slate-300 leading-relaxed">
-            As a Software Developer (Industry X) at Accenture, I build automation pipelines, enterprise integrations, and full-stack features that serve engineering and healthcare teams across Ontario — cutting manual effort by up to 90% and shipping production-ready solutions in record time. My work spans Java microservices on Kubernetes, C# Windows services, Python ML systems, and Azure cloud infrastructure. Before Accenture, I helped launch LiteSpace, a hybrid workplace scheduling platform, where I led QA alongside the CTO and engineered full-stack features from the ground up. Outside of client work, I'm pursuing my AWS certification and building Transient Radio: a music discovery platform powered by Next.js, Cloudflare, and Supabase, because I believe the best side projects are the ones you'd actually use yourself.
+            I get excited by problems where software has real, measurable impact:automating a process that used to take hours, shipping a feature that unblocks an entire team, or designing a system that scales without breaking a sweat. Right now I'm particularly drawn to cloud infrastructure, distributed systems, and the intersection of AI and developer tooling, areas where the pace of change means there's always something new to figure out.
             </p>
             <p className="mt-3 text-slate-300 leading-relaxed">
-              Outside of client work, I am interested in learning more about cloud computing and building mobile/web applications that benefit society.
+            Outside of work, I'm building Transient Radio, a music discovery platform that's been my playground for Next.js, Cloudflare, and Supabase, because I think the best way to learn is to build something you actually care about.
             </p>
           </div>
 
