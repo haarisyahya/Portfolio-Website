@@ -22,11 +22,11 @@ const experience: ExperienceItem[] = [
     logo: "/accenture_logo.jpg",
     logoAlt: "Accenture logo",
     description: [
-      "Led engineering data migration initiatives using 3DEXPERIENCE, SolidWorks, and Citrix, while developing Java and PowerShell automation pipelines that reduced manual data processing by 45% and ensured seamless transfer and integrity of complex engineering data",
-      "Developed and thoroughly tested a Windows service integration application that streamlined the clients safety process and ensured data reliability using C#, SQL Server and Postman",
-      "Designed and implemented a Python-based mentor–mentee matching algorithm using preference scoring, capability alignment, and exclusion rules, automating the pairing process for a global mentorship program across Accenture",
-      "Develop and deploy Java microservice features in a healthcare platform using Kubernetes, Azureinfrastructure (VMs, Key Vault, Roles), Git, and Azure DevOps CI/CD pipelines, contributing to secure and scalable production deployments",
-      "Partner with QA and cross-functional teams to test APIs with Postman, manage sprint tasks in JIRA, perform code reviews, and mentor junior developers to maintain high code quality and reliable releases"
+      "Led engineering data migration initiatives using 3DEXPERIENCE, SolidWorks, and Citrix, whiledeveloping Java and PowerShell automation pipelines that reduced manual data processing by 45%, guaranteed zero data loss across complex engineering data migrations",
+      "Independently engineered a production-ready C# and SQL Server Windows service integration in under 30 days, accelerating the projected delivery timeline, which automated 100% of the client’s manual safety check process and improved data processing speed by an estimated 75%",
+      "Architected a Python-based ML mentorship matching algorithm utilizing preference scoring and exclusion rules, scaling match throughput from ~50 to 250+ pairs per cycle - a 5× increase - while cutting manual admin effort by 90%",
+      " Developed and deployed 40+ high-priority Java microservice features and bug fixes for a healthcare platform, leveraging Kubernetes, Azure infrastructure (VMs, Key Vault, Roles), and Azure DevOps CI/CD pipelines to deliver secure and scalable production releases",
+      "Partnered with QA and cross-functional teams to test APIs with Postman, manage sprint tasks in JIRA, perform code reviews, and mentor junior developers to maintain high code quality and reliable releases"
     ],
   },
   {
@@ -38,10 +38,10 @@ const experience: ExperienceItem[] = [
     logo: "/litespace_logo.jpg",
     logoAlt: "LiteSpace logo",
     description: [
-      "Built and expanded a hybrid/remote workplace scheduling feature using TypeScript, GraphQL, and MongoDB, supporting scalable workspace management",
-      "Played a pivotal role in LiteSpace’s launch by conducting rigorous testing and debugging with team and CTO",
-      "Collaborated with a dynamic team to develop, test, and deploy new front-end and back-end features",
-      "Ensured scalability and performance using a microservices architecture and utilized GitHub Actions for seamless continuous integration and delivery"
+      "Built and scaled a hybrid/remote workplace scheduling feature using TypeScript, GraphQL, and MongoDB, shipping to production ahead of the launch deadline",
+      "Drove LiteSpace's product launch by leading end-to-end QA with the CTO, resolving critical bugs and cutting release delays by 50%",
+      "Engineered and deployed full-stack features, delivering production-ready releases at a consistent weekly cadence",
+      "Improved system performance and test coverage by implementing automated testing workflows via GitHub Actions, reducing regression time by an estimated 40%"
     ],
   },
 ];

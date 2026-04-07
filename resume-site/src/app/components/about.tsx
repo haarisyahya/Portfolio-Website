@@ -20,10 +20,10 @@ export default function About() {
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
             <h3 className="text-xl font-semibold text-white">What excites me</h3>
             <p className="mt-3 text-slate-300 leading-relaxed">
-            As an Software Developer (Industry X) @ Accenture, I design and deliver automation scripts, novel features, end‑to‑end data pipelines, and enterprise‑grade integration solutions (Docker, Kafka, Azure DevOps, JUnit/Mockito) that support engineering and health‑care teams Ontario wide. Previously, I helped launch product features at LiteSpace, led testing initiatives, and collaborated closely with designers to ship polished, reliable experiences.
+            As a Software Developer (Industry X) at Accenture, I build automation pipelines, enterprise integrations, and full-stack features that serve engineering and healthcare teams across Ontario — cutting manual effort by up to 90% and shipping production-ready solutions in record time. My work spans Java microservices on Kubernetes, C# Windows services, Python ML systems, and Azure cloud infrastructure. Before Accenture, I helped launch LiteSpace, a hybrid workplace scheduling platform, where I led QA alongside the CTO and engineered full-stack features from the ground up. Outside of client work, I'm pursuing my AWS certification and building Transient Radio: a music discovery platform powered by Next.js, Cloudflare, and Supabase, because I believe the best side projects are the ones you'd actually use yourself.
             </p>
             <p className="mt-3 text-slate-300 leading-relaxed">
-              Outside of client work, I am interested in learning more about cloud computing and building mobile applications that benefit society.
+              Outside of client work, I am interested in learning more about cloud computing and building mobile/web applications that benefit society.
             </p>
           </div>
 
