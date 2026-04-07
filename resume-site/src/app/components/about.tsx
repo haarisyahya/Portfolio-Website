@@ -20,7 +20,7 @@ export default function About() {
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
             <h3 className="text-xl font-semibold text-white">What excites me</h3>
             <p className="mt-3 text-slate-300 leading-relaxed">
-            I get excited by problems where software has real, measurable impact:automating a process that used to take hours, shipping a feature that unblocks an entire team, or designing a system that scales without breaking a sweat. Right now I'm particularly drawn to cloud infrastructure, distributed systems, and the intersection of AI and developer tooling, areas where the pace of change means there's always something new to figure out.
+            I get excited by problems where software has real, measurable impact: automating a process that used to take hours, shipping a feature that unblocks an entire team, or designing a system that scales without breaking a sweat. Right now I'm particularly drawn to cloud infrastructure, distributed systems, and the intersection of AI and developer tooling, areas where the pace of change means there's always something new to figure out.
             </p>
             <p className="mt-3 text-slate-300 leading-relaxed">
             Outside of work, I'm building Transient Radio, a music discovery platform that's been my playground for Next.js, Cloudflare, and Supabase, because I think the best way to learn is to build something you actually care about.
