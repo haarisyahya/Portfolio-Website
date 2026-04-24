@@ -54,6 +54,10 @@ export default function About() {
                 <dt className="text-xs uppercase tracking-wider text-slate-400">Currently Learning</dt>
                 <dd className="text-base font-medium text-slate-200">Agentic AI, Machine Learning, Cloud Computing, Mobile Application Development</dd>
               </div>
+              <div>
+                <dt className="text-xs uppercase tracking-wider text-slate-400">Certifications</dt>
+                <dd className="text-base font-medium text-slate-200">AWS Certified Cloud Practitioner (Foundational)</dd>
+              </div>
             </dl>
           </div>
 
