@@ -67,23 +67,17 @@ export default function About() {
                 >
                   View verified Credly badge
                 </Link>
+                <dd className="mt-3 text-base font-medium text-slate-200">Reinvention with Agentic AI Learning Program — Nov 2025</dd>
+                <Link
+                  href="https://www.credly.com/badges/4e269951-30dc-40b3-a8ca-2cc158c7a678/public_url"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
+                >
+                  View Agentic AI Credly badge
+                </Link>
               </div>
             </dl>
-          </div>
-
-          <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-slate-300">Other Credentials</h4>
-            <p className="mt-3 text-slate-300">
-              Reinvention with Agentic AI Learning Program (Accenture, powered in part by Stanford HAI) - Issued Nov 2025.
-            </p>
-            <Link
-              href="https://www.credly.com/badges/4e269951-30dc-40b3-a8ca-2cc158c7a678/public_url"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-flex items-center rounded-md border border-primary/40 bg-primary/10 px-3 py-2 text-sm font-medium text-primary transition hover:bg-primary/20"
-            >
-              View Agentic AI Credly badge
-            </Link>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
