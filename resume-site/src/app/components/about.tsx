@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function About() {
   return (
     <div className="max-w-5xl mx-auto px-4">
@@ -9,9 +11,9 @@ export default function About() {
           Full-Stack Engineer with a passion for learning and solving complex problems
         </h2>
         <p className="mt-4 text-base md:text-lg text-slate-300">
-        I live for learning new tools, cracking tough problems, and constantly iterating on my craft. When I’m not building data pipelines 
-        or UI components, you’ll find me on the soccer field (or cheering from the couch), tinkering on a game prototype, lifting weights, cooking up new recipes, or hanging out with my cats.  
-        I’m always looking for projects where technology meets innovation. </p>
+        I love learning new tools, solving tough problems, and continuously improving my craft. When I&apos;m not building data pipelines or UI components, you&apos;ll usually find me playing soccer, lifting weights, cooking, or hanging out with my cats.
+        I&apos;m always looking for projects where technology meets innovation.
+        </p>
       </div>
 
       <div className="grid gap-8 md:grid-cols-[1.2fr_0.8fr]">
@@ -52,13 +54,36 @@ export default function About() {
               </div>
               <div>
                 <dt className="text-xs uppercase tracking-wider text-slate-400">Currently Learning</dt>
-                <dd className="text-base font-medium text-slate-200">Agentic AI, Machine Learning, Cloud Computing, Mobile Application Development</dd>
+                <dd className="text-base font-medium text-slate-200">Agentic AI, Machine Learning, AWS Solutions Architecture (SAA-C03), Mobile Application Development</dd>
               </div>
               <div>
                 <dt className="text-xs uppercase tracking-wider text-slate-400">Certifications</dt>
-                <dd className="text-base font-medium text-slate-200">AWS Certified Cloud Practitioner (Foundational)</dd>
+                <dd className="text-base font-medium text-slate-200">AWS Certified Cloud Practitioner (CLF-C02) — June 2025</dd>
+                <Link
+                  href="https://www.credly.com/badges/fe8e98c6-d900-464a-ba11-923a1ac20dd6/public_url"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
+                >
+                  View verified Credly badge
+                </Link>
               </div>
             </dl>
+          </div>
+
+          <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-slate-300">Other Credentials</h4>
+            <p className="mt-3 text-slate-300">
+              Reinvention with Agentic AI Learning Program (Accenture, powered in part by Stanford HAI) - Issued Nov 2025.
+            </p>
+            <Link
+              href="https://www.credly.com/badges/4e269951-30dc-40b3-a8ca-2cc158c7a678/public_url"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center rounded-md border border-primary/40 bg-primary/10 px-3 py-2 text-sm font-medium text-primary transition hover:bg-primary/20"
+            >
+              View Agentic AI Credly badge
+            </Link>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-black/40 p-6 backdrop-blur-md shadow-lg">
