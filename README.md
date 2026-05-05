@@ -89,13 +89,6 @@ resume-site/
 
 ---
 
-## ✅ TODO / Ideas
-
-- Add more project entries using the project card format.
-- Optional theme toggle to introduce accessibility.
-- Performance tuning for the Galaxy Canvas, if needed.
-
----
 
 ## 📄 License
 
